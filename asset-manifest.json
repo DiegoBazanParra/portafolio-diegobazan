@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio-diegobazan/static/css/main.e9917ef0.css",
-    "main.js": "/portafolio-diegobazan/static/js/main.06e85737.js",
+    "main.js": "/portafolio-diegobazan/static/js/main.4bc0b244.js",
     "static/media/project-hcg.png": "/portafolio-diegobazan/static/media/project-hcg.36249b992b8cf64457b1.png",
     "static/media/project-escorpion.png": "/portafolio-diegobazan/static/media/project-escorpion.4bf5d9a17e1b5e30b9b8.png",
     "static/media/project-mcgrupo.png": "/portafolio-diegobazan/static/media/project-mcgrupo.33a0697b4fab49049c8a.png",
@@ -12,8 +12,8 @@
     "static/media/project-ciara.png": "/portafolio-diegobazan/static/media/project-ciara.3017b04f84cf628fce36.png",
     "static/media/mockup5.svg": "/portafolio-diegobazan/static/media/mockup5.58333ba6a8b6e23686b4.svg",
     "static/media/mockup4.svg": "/portafolio-diegobazan/static/media/mockup4.c5b839b7ee38ee2cae6b.svg",
+    "static/media/project-pokemon.png": "/portafolio-diegobazan/static/media/project-pokemon.7971e6e8ec740031c9e3.png",
     "static/media/project-guappjolotas.png": "/portafolio-diegobazan/static/media/project-guappjolotas.3b404f1b0f3ed8a3b627.png",
-    "static/media/project-pokemonapi.png": "/portafolio-diegobazan/static/media/project-pokemonapi.cf8f5c1965593abdeaeb.png",
     "static/media/project-notes-app.png": "/portafolio-diegobazan/static/media/project-notes-app.0927d43d3bb74c13b1fc.png",
     "static/media/mockup3.svg": "/portafolio-diegobazan/static/media/mockup3.3b4e197b16e84de4eb99.svg",
     "static/media/logo-rick.svg": "/portafolio-diegobazan/static/media/logo-rick.d4af345a8905427bd49c241eead9e519.svg",
@@ -36,10 +36,10 @@
     "static/media/certificate-wave2.svg": "/portafolio-diegobazan/static/media/certificate-wave2.6afffe38a255ac1028537d0dde2d4f00.svg",
     "static/media/hamburger.svg": "/portafolio-diegobazan/static/media/hamburger.f8445eba82bf25243cdbf0e3a7ef8a01.svg",
     "main.e9917ef0.css.map": "/portafolio-diegobazan/static/css/main.e9917ef0.css.map",
-    "main.06e85737.js.map": "/portafolio-diegobazan/static/js/main.06e85737.js.map"
+    "main.4bc0b244.js.map": "/portafolio-diegobazan/static/js/main.4bc0b244.js.map"
   },
   "entrypoints": [
     "static/css/main.e9917ef0.css",
-    "static/js/main.06e85737.js"
+    "static/js/main.4bc0b244.js"
   ]
 }
