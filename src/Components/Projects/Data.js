@@ -5,7 +5,7 @@
 // import Project4 from "Assets/projects/project-disney.png";
 
 import Project5 from "../../Assets/projects/project-guappjolotas.png";
-import Project6 from "../../Assets/projects/project-pokemonapi.png";
+import Project6 from "../../Assets/projects/project-pokemon.png";
 import Project7 from "../../Assets/projects/project-notes-app.png";
 
 // import LogoNextjs from "Assets/icons/logo-next-black.svg";
@@ -41,8 +41,8 @@ export const ListProjects = [
     img: Project6,
     description:
       "Pokedex es un aplicación web, que trae una lista de pokémons de una API Externa (pokeapi.co), para poder ser visualizados en nuestra aplicación y de esta forma poder facilitarnos la búsqueda y ver sus características de cada uno de ellos.",
-    code: "https://github.com/richidoes/social-blogging-platform",
-    demo: "https://nextric-app.vercel.app/",
+    code: "https://github.com/DiegoBazanParra/pokemon-app",
+    demo: "https://diegobazanparra.github.io/pokemon-app/",
     tecnologies: [
       {
         img: LogoReactjs,
