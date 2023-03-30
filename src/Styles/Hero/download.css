@@ -1,0 +1,130 @@
+.Download {
+  width: 280px;
+}
+
+@media (max-width: 450px) {
+  .Download {
+    width: 220px;
+    height: 70px;
+  }
+}
+
+.icon-download {
+  width: 45px;
+  height: 45px;
+  background: linear-gradient(200.44deg, #0089ff 13.57%, #00b2ff 98.38%);
+  /* background: linear-gradient(
+    200.44deg,
+    rgb(67, 22, 219) 13.57%,
+    rgb(144, 118, 231) 98.38%
+  ); */
+  border-radius: 50%;
+  display: grid;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-self: center;
+  position: relative;
+}
+
+.download-ring {
+  position: absolute;
+  top: -15px;
+  left: -16px;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}
+
+.hero-btn-download:hover .download-ring {
+  transform: rotate(30deg) scale(1.2) translate(1px, 1px);
+}
+
+.hero-btn-download:hover .icon-download {
+  filter: hue-rotate(10deg) brightness(150%) saturate(120%);
+}
+
+.download-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.hero-btn-download {
+  max-width: 280px;
+  height: 77px;
+  padding: 12px;
+  background: linear-gradient(rgb(255, 255, 255) 0%, rgb(217, 223, 255) 100%);
+  box-shadow: rgb(0 0 0 / 10%) 0px 1px 3px, rgb(23 0 102 / 20%) 0px 20px 40px,
+    rgb(255 255 255 / 50%) 0px 0px 0px 0.5px inset;
+  border-radius: 20px;
+  border: 0px;
+  display: grid;
+  grid-template-columns: 53px auto;
+  -webkit-box-align: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-btn-download {
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}
+
+.hero-btn-download:hover {
+  box-shadow: rgb(0 0 0 / 10%) 0px 1px 3px, rgb(23 0 102 / 50%) 0px 30px 60px,
+    rgb(255 255 255 / 50%) 0px 0px 0px 0.5px inset;
+  transform: translateY(-3px);
+}
+
+.download-text {
+  display: grid;
+  gap: 4px;
+}
+
+@media (max-width: 768px) {
+
+  .card-hero a,
+  .card-hero div {
+    margin: auto;
+  }
+}
+
+.download-text p {
+  color: black;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.download-text span {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 130%;
+  color: black;
+  opacity: 0.7;
+}
+
+@media (max-width: 450px) {
+  .download-text p {
+    font-size: 13px;
+  }
+
+  .icon-download {
+    width: 38px;
+    height: 38px;
+  }
+
+  .download-ring {
+    top: -16px;
+    left: -17px;
+    width: 80px;
+  }
+
+  .download-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .hero-btn-download {
+    height: 70px;
+  }
+}

@@ -1,0 +1,83 @@
+.footer-background {
+  position: relative;
+}
+.footer {
+  overflow: hidden;
+}
+
+.footer-content {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1234px;
+  margin: 150px auto 0px;
+  padding: 230px 20px 0px;
+  
+}
+.footerwaves {
+  position: absolute;
+  z-index: -1;
+  top: 290px;
+}
+.footerwave2 {
+  top: 50px;
+  transform: scaleY(0.3) scaleX(-1);
+}
+
+.footer-title {
+  font-weight: bold;
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 550px) {
+  .footer-title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 450px) {
+  .footer-title {
+    font-size: 28px;
+  }
+}
+/* Añadir Css de Redes */
+
+/* Fuente de Parrafo */
+.footer-description {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.footer-description {
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer-description img {
+  height: 24px;
+  padding: 0px 5px;
+}
+@media (max-width: 550px) {
+  .footer-description img {
+    height: 18px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .footer-background-wave {
+    width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  .footer-description {
+    font-size: 13px;
+  }
+  .footerwave2 {
+    top: 290px;
+  }
+}

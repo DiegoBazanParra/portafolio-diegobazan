@@ -1,0 +1,19 @@
+.animation > :nth-child(1) {
+  animation-delay: 0s;
+}
+.animation > * {
+  opacity: 0;
+  animation: 1s ease 0s 1 normal forwards running Blur;
+}
+@keyframes Blur {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+    filter: blur(0px);
+  }
+}

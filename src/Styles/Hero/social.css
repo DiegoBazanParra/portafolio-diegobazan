@@ -1,0 +1,29 @@
+.social-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 30px;
+  padding: 16px;
+  margin: auto;
+}
+
+.social-links i {
+  font-size: 35px;
+}
+
+.social-links .fa-linkedin {
+  color: rgb(0, 114, 177);
+  display: flex;
+}
+
+.social-links .fa-github {
+  color: rgb(110, 84, 148);
+}
+
+.social-links a {
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}
+
+.social-links a:hover {
+  transform: translateY(-3px) scale(1.1);
+}

@@ -1,0 +1,129 @@
+.card .mockups {
+  position: relative;
+}
+
+.mockups div {
+  transform: rotateY(-20deg) rotateX(20deg);
+  transform-origin: left bottom;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}
+
+.mockup1 {
+  position: absolute;
+  width: 183px;
+  height: 120px;
+  left: 0px;
+  top: 0px;
+  background: url(../../Assets/svg/mockup1.svg),
+    linear-gradient(200.42deg,
+      rgb(132, 79, 252) 13.57%,
+      rgb(73, 30, 184) 98.35%);
+  border: 0.5px solid rgba(255, 255, 255, 0.3);
+  box-shadow: rgb(99 30 187 / 50%) 0px 16.3881px 32.7761px;
+  backdrop-filter: blur(21.8507px);
+  border-radius: 16px;
+}
+
+.mockup2 {
+  position: absolute;
+  width: 183px;
+  height: 120px;
+  left: 214px;
+  top: 0px;
+  background: url(../../Assets/svg/mockup2.svg),
+    linear-gradient(184.82deg,
+      rgb(41, 166, 158) 3.89%,
+      rgb(117, 209, 204) 96.11%);
+  border: 0.5px solid rgba(255, 255, 255, 0.3);
+  box-shadow: rgb(0 0 0 / 10%) 0px 8.19119px 16.3824px,
+    rgb(0 0 0 / 15%) 0px 16.3824px 32.7648px;
+  backdrop-filter: blur(21.8432px);
+  border-radius: 16px;
+}
+
+.mockup3 {
+  position: absolute;
+  width: 701px;
+  height: 428px;
+  left: 37px;
+  top: 60px;
+  background: url(../../Assets/svg/mockup3.svg), rgba(23, 12, 61, 0.5);
+  box-shadow: rgb(255 255 255 / 20%) 0px 0px 0px 0.5px inset;
+  backdrop-filter: blur(27.3844px);
+  border-radius: 8px;
+}
+
+.mockup4 {
+  position: absolute;
+  width: 399px;
+  height: 274px;
+  left: 78px;
+  top: 228px;
+  background: url(../../Assets/svg/mockup4.svg), rgba(39, 20, 62, 0.3);
+  box-shadow: rgb(255 255 255 / 20%) 0px 0px 0px 0.5px inset;
+  backdrop-filter: blur(20px);
+  border-radius: 8px;
+}
+
+.mockup5 {
+  position: absolute;
+  width: 412px;
+  height: 274px;
+  left: 375px;
+  top: 250px;
+  background: url(../../Assets/svg/mockup5.svg), rgba(39, 20, 62, 0.3);
+  box-shadow: rgb(255 255 255 / 20%) 0px 0px 0px 0.5px inset;
+  backdrop-filter: blur(20px);
+  border-radius: 8px;
+}
+
+.mockups:hover div {
+  transition-delay: 0.2s;
+  transform: translate(0px, -30px);
+}
+
+.mockups div:hover {
+  filter: hue-rotate(10deg) brightness(150%) saturate(120%);
+}
+
+.mockups:hover div.mockup1 {
+  transition-delay: 0.1s;
+  transform: translate(-30px, -30px);
+}
+
+.mockups:hover div.mockup2 {
+  transition-delay: 0.2s;
+  transform: translate(0px, -30px);
+}
+
+.mockups:hover div.mockup3 {
+  transition-delay: 0s;
+}
+
+.mockups:hover div.mockup4 {
+  transition-delay: 0.1s;
+  transform: translate(-120px, 30px);
+}
+
+.mockups:hover div.mockup5 {
+  transition-delay: 0.2s;
+  transform: translate(5px, 8px);
+}
+
+@media (min-width: 300px) {
+  .mockups {
+    display: none;
+  }
+}
+
+@media (max-width: 660px) {
+  .mockups {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .mockups {
+    display: block;
+  }
+}
